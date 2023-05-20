@@ -4,17 +4,34 @@
 
 
 body {
-	font-family: 'Indie Flower', 'Lucida Sans Handwriting', sans-serif;
+	font-family: 'Indie Flower', 'Lucida Sans Handwriting';
 	background: linear-gradient(122deg, #488ef5 0%, #ff46f2 100%);
 	background-attachment: fixed;
 	margin: 0;
+	--border: solid 1px #c4c4c4;
+	--handwrite: Handlee, 'Lucida Sans Handwriting';
+}
+
+header, footer {
+	width: 100%;
+	background: #a9a9a9;
+	white-space: nowrap;
 }
 
 header {
-	width: 100%;
-	background: #a9a9a9;
-	border-bottom: solid 1px #c4c4c4;
-	white-space: nowrap;
+	border-bottom: var(--border);
+	overflow: auto;
+}
+
+footer {
+	text-align: center;
+	font-family: var(--handwrite);
+	border-top: var(--border);
+	padding-bottom: 8px;
+}
+
+footer p {
+	margin-bottom: 0;
 }
 
 header a {
@@ -22,7 +39,7 @@ header a {
 }
 
 #wrapper {
-	font-family: Handlee, 'Lucida Sans Handwriting';
+	font-family: var(--handwrite);
 	background: #ffffff33;
 	margin: 12px 12px 12px 12px;
 	padding: 8px 8px 8px 8px;
