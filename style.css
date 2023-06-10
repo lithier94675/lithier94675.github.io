@@ -16,8 +16,7 @@ header, footer {
 header {
 	border-bottom: var(--border);
 	overflow: auto;
-	padding-left: 10px;
-}
+}
 
 footer {
 	text-align: center;
@@ -28,7 +27,7 @@ footer {
 
 footer p {
 	margin-bottom: 0;
-}
+}
 
 #wrapper {
 	font-family: var(--handwrite);
@@ -68,5 +67,5 @@ a:hover {
 }
 
 h1 {
-	font-family: 'Dancing Script', 'Lucida Sans Handwriting';
+	font-family: Nunito, sans-serif;
 }
