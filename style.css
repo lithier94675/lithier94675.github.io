@@ -16,7 +16,8 @@ header, footer {
 header {
 	border-bottom: var(--border);
 	overflow: auto;
-}
+	padding-left: 10px;
+}
 
 footer {
 	text-align: center;
@@ -27,11 +28,7 @@ footer {
 
 footer p {
 	margin-bottom: 0;
-}
-
-header a {
-	font-size: 36px;
-}
+}
 
 #wrapper {
 	font-family: var(--handwrite);
