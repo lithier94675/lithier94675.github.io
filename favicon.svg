@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" id="gd-icon">
+	<g id="outline">
+		<polygon points="0,0 44,0 44,28 28,28 28,44 0,44 0,0"/>
+		<polygon points="78,0 120,0 120,44 92,44 92,28 78,28 78,0"/>
+		<polygon points="0,78 28,78 28,92 44,92 44,120 0,120 0,78"/>
+		<polygon points="92,78 120,78 120,120 78,120 78,92 92,92 92,78"/>
+		<polygon points="47,0 75,0 75,28 47,28 47,0"/>
+		<polygon points="0,47 28,47 28,75 0,75 0,47"/>
+		<polygon points="47,92 75,92 75,120 47,120 47,92"/>
+		<polygon points="92,47 120,47 120,75 92,75 92,47"/>
+		<polygon points="44,44 78,44 78,78 44,78 44,44"/>
+	</g>
+	<g id="fill">
+		<polygon points="6,6 38,6 38,22 22,22 22,38 6,38 6,6" fill="#007dff"/>
+		<polygon points="84,6 114,6 114,38 98,38 98,22 84,22 84,6" fill="#007dff"/>
+		<polygon points="6,84 22,84 22,98 38,98 38,114 6,114 6,84" fill="#007dff"/>
+		<polygon points="98,84 114,84 114,114 84,114 84,98 98,98" fill="#007dff"/>
+		<polygon points="53,6 69,6 69,22 53,22 53,6" fill="#fff"/>
+		<polygon points="6,53 22,53 22,69 6,69 6,53" fill="#fff"/>
+		<polygon points="53,98 69,98 69,114 53,114 53,98" fill="#fff"/>
+		<polygon points="98,53 114,53 114,69 98,69 98,53" fill="#fff"/>
+		<polygon points="50,50 72,50 72,72 50,72 50,50" fill="#fff"/>
+	</g>
+</svg>

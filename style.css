@@ -1,0 +1,105 @@
+body {
+	background: linear-gradient(122deg, #488ef5 0%, #ff46f2 100%);
+	background-attachment: fixed;
+	margin: 0;
+	--border: solid 1px #c4c4c4;
+	--handwrite: Handlee, 'Lucida Sans Handwriting';
+}
+
+h1, h2 {
+	font-family: 'Indie Flower', 'Lucida Sans Handwriting';
+	margin: 0;
+}
+
+header, footer {
+	font-family: var(--handwrite);
+	margin: 0;
+	width: 100%;
+	background: #a9a9a9;
+	white-space: nowrap;
+}
+
+header {
+	border-bottom: var(--border);
+}
+
+header h1 {
+	padding: 12px 0 0 10px;
+}
+header p {
+	margin: 0 0 8px 10px;
+}
+
+header p span {
+	margin-right: 24px;
+}
+
+footer {
+	text-align: center;
+	font-family: var(--handwrite);
+	border-top: var(--border);
+	padding-bottom: 8px;
+}
+
+footer p {
+	margin-bottom: 0;
+}
+
+#wrapper {
+	font-family: var(--handwrite);
+	background: #ffffff33;
+	margin: 12px 12px 12px 12px;
+	padding: 8px 8px 8px 8px;
+	box-shadow: 0px 0px 4px 4px #ffffff55;
+}
+
+label {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #fff;
+	background: #a9a9a9;
+	border: 1px solid #c4c4c4;
+	margin-right: 4px;
+	padding: 2px;
+}
+
+#wrapper a {
+	margin: 0;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+	margin-bottom: 24px;
+	margin-left: 10px;
+}
+
+a:visited {
+	color: #586069;
+}
+
+a:hover {
+	text-decoration: underline 1px #d3d3d3;
+}
+
+#box {
+	text-align: center;
+	height: 60%;
+	width: 60%;
+}
+
+#box h1, #box p, #box a{
+	margin-bottom: 16px;
+}
+
+@media screen and (max-width: 960px) {
+	#box {
+		width: 80%;
+	}
+}
+
+@media screen and (max-height: 540px) {
+	#box {
+		height: 80%;
+	}
+}
