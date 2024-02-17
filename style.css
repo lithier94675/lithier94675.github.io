@@ -82,24 +82,44 @@ a:hover {
 	text-decoration: underline 1px #d3d3d3;
 }
 
-#box {
+#nofound {
+	height: 100%;
+	width: 100%;
+	background: black;
+	color: white;
+	font-family: 'Press Start 2P';
+	display: flex;
+	justify-content: center;
+	margin-top: 80px;
+}
+
+#nofound #box {
+	width: 80%;
+}
+
+#eh {
 	text-align: center;
-	height: 60%;
-	width: 60%;
 }
 
-#box h1, #box p, #box a{
-	margin-bottom: 16px;
+#eh #head {
+	font-size: 36px;
 }
 
-@media screen and (max-width: 960px) {
-	#box {
-		width: 80%;
-	}
+#eh a {
+	margin: 0;
 }
 
-@media screen and (max-height: 540px) {
-	#box {
-		height: 80%;
+#eh a:hover {
+	letter-spacing: 2px;
+	transition: 400ms;
+}
+
+#eh a:focus {
+	color: #488ef5;
+}
+
+@media screen and (min-width: 1280px) {
+	#nofound #box {
+		width: 60%;
 	}
 }
