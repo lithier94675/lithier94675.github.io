@@ -1,6 +1,11 @@
+---
+title: Welcome to my GitHub Page
+description: I make my own projects here
+---
+
 ## Hello,
 
-I am **lithier94675**, a ~~web~~ desktop application developer. This website is where I share my personal projects and many things.
+I am **lithier94675**, a ~~web~~ desktop application developer. This website is where I share my personal projects and many things. Currently I don't have any interesting stuff, but I will create one in the future.
 
 ## You can find me on...
 
