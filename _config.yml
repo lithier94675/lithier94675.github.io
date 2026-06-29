@@ -1,4 +1,1 @@
-plugins:
-  - jekyll-remote-theme
-
-remote_theme: pages-themes/cayman@0.2.0
+theme: jekyll-theme-cayman
