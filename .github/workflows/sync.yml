@@ -13,7 +13,7 @@ jobs:
           token: ${{ secrets.PERSONAL_TOKEN }}
           path: profile
       - run: |
-          sed '1{/^---$/!q};1,/^---$/d' index.md
+          sed -i '1{/^---$/!q};1,/^---$/d' index.md
           cp index.md profile/README.md
           cd profile
           git config --global user.name github-actions[bot]
